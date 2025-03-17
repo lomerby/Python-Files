@@ -10,7 +10,7 @@ while True:
     except ValueError:
         print("invalid input")
         match op :
-            case "+":
+            case "+": 
                 print(num1, "+",num2, "=",num1+num2)
             case "-":
                 print (num1, "-",num2, "=",num1-num2)    
